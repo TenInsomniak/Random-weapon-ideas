@@ -1,6 +1,7 @@
 package net.teninsomniak.moretools.item;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ToolMaterials;
 import net.teninsomniak.moretools.MoreTools;
 import net.minecraft.item.Item;
@@ -27,6 +28,12 @@ public class ModItems {
     public static final Item NETHERITE_SCYTHE = registerItem("netherite_scythe",
             new ScytheItem(ToolMaterials.NETHERITE, 4, -3f, new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
+
+
+    public static final Item ASTRALYTE_INGOT = registerItem("astralyte_ingot",
+            new Item(new FabricItemSettings().group(ItemGroup.MATERIALS)));
+    public static final Item DISTILLED_CHORUS = registerItem("distilled_chorus",
+            new Item(new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
 
     public static final Item TEST_ITEM = registerItem("test_item",

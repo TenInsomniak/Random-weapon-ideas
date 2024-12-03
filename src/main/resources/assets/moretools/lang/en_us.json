@@ -6,5 +6,9 @@
   "item.moretools.diamond_scythe": "Diamond Scythe",
   "item.moretools.netherite_scythe": "Netherite Scythe",
 
+  "item.moretools.astralyte_ingot": "Astralyte Ingot",
+  "item.moretools.distilled_chorus": "Distilled Chorus",
+  "effect.moretools.teleport_effect":"Teleportation",
+
   "itemGroup.moretools.scythes": "Scythes"
 }
