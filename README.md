@@ -1,2 +1,1 @@
-A basic mod, adding a couple of tools.
-For now, this only adds scythes :P
+Basically doing a compleate rewrite of the mod, including a name change (when i come up with it)
