@@ -1,41 +1,44 @@
 {
-  "schemaVersion": 1,
-  "id": "moretools",
-  "version": "${version}",
-
-  "name": "More Tools",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Ten Insomniak"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "MIT License",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.teninsomniak.moretools.MoreTools"
-    ],
-    "client": [
-      "net.teninsomniak.moretools.MoreToolsClient"
-    ]
-  },
-  "mixins": [
-    "moretools.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.14.19",
-    "fabric-api": "*",
-    "minecraft": "~1.19.2",
-    "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "*"
-  }
+	"schemaVersion": 1,
+	"id": "random-weapons",
+	"version": "${version}",
+	"name": "Random Weapon Ideas",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/random-weapons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"teninsomniak.randomweapons.RandomWeaponIdeas"
+		],
+		"client": [
+			"teninsomniak.randomweapons.RandomWeaponIdeasClient"
+		],
+		"fabric-datagen": [
+			"teninsomniak.randomweapons.RandomWeaponIdeasDataGenerator"
+		]
+	},
+	"mixins": [
+		"random-weapons.mixins.json",
+		{
+			"config": "random-weapons.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }
