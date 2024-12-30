@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "teninsomniak.randomweapons.mixin",
+	"package": "net.teninsomniak.randomweapons.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
 		"ExampleMixin"

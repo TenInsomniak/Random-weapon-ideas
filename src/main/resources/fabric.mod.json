@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "random-weapons",
 	"version": "${version}",
-	"name": "Random Weapon Ideas",
+	"name": "Random weapon ideas",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -16,21 +16,14 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"teninsomniak.randomweapons.RandomWeaponIdeas"
-		],
-		"client": [
-			"teninsomniak.randomweapons.RandomWeaponIdeasClient"
+			"net.teninsomniak.randomweapons.RandomWeaponIdeas"
 		],
 		"fabric-datagen": [
-			"teninsomniak.randomweapons.RandomWeaponIdeasDataGenerator"
+			"net.teninsomniak.randomweapons.RandomWeaponIdeasDataGenerator"
 		]
 	},
 	"mixins": [
-		"random-weapons.mixins.json",
-		{
-			"config": "random-weapons.client.mixins.json",
-			"environment": "client"
-		}
+		"random-weapons.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.9",

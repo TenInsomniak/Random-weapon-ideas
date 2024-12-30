@@ -1,4 +1,4 @@
-package teninsomniak.randomweapons.mixin;
+package net.teninsomniak.randomweapons.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
