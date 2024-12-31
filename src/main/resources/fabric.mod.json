@@ -3,20 +3,23 @@
 	"id": "random-weapons",
 	"version": "${version}",
 	"name": "Random weapon ideas",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod adding different weaponry!",
 	"authors": [
-		"Me!"
+		"Ten Insomniak"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TenInsomniak/Random-weapon-ideas"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/random-weapons/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"net.teninsomniak.randomweapons.RandomWeaponIdeas"
+		],
+		"client": [
+			"net.teninsomniak.randomweapons.RandomWeaponIdeasClient"
 		],
 		"fabric-datagen": [
 			"net.teninsomniak.randomweapons.RandomWeaponIdeasDataGenerator"
