@@ -2,6 +2,8 @@ package net.teninsomniak.randomweapons;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.teninsomniak.randomweapons.item.ModItemGroups;
+import net.teninsomniak.randomweapons.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +13,7 @@ public class RandomWeaponIdeas implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
