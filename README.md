@@ -1,11 +1,12 @@
 # Random weapon ideas
-### A Fabric mod adding differrent weaponry and armour
-The mod will add a couple of differrent weapons.
+### A Fabric mod adding different weaponry and armour
+The mod will add a couple of different weapons, equipment and perhaps some new mobs
 ## Current features:
-- Scythes (with material tiers)
+- Nothing that's fully working, but I hope that'll change soon :)
 ## Planned features:
 - A new ore with tools/armor
+- Scythes (with different material variants)
 ## FAQ
 #### Q: When will this come out?
-**A: I dont know.** I'm trying my best, it's my first mod, give me some time.
+**A: Not for a while.** I have practically nothing made yet.
 ###### Copyright (C) 2025 Ten Insomniak
